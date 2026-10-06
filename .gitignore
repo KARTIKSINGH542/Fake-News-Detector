@@ -1,0 +1,39 @@
+venv/
+.venv/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+build/
+dist/
+*.egg-info/
+
+# Virtual environments and local secrets
+env/
+.env
+.env.*
+!.env.example
+
+# Test, type-checker, and notebook caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Generated model and training artifacts
+/bert_results/
+/fine_tuned_bert/
+/runs/
+/submission_bert.csv
+
+# Local editor and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
